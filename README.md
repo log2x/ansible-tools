@@ -1,18 +1,18 @@
 # ansible-tools
 ansible-tools for working
 
-#DEV UAT
+# DEV UAT
 alias hpdevm235='cd /usr/share/nginx/html/m234.newap.hpstore.cc/'
 alias hpdevin='cd /usr/share/nginx/html/in.upgrade.hpstore.cc'
 
-#lam uat
+# lam uat
 /usr/share/nginx/html/cl.hp.php9.cc/
 
-#Upgrade
+# Upgrade
 /usr/share/nginx/html/in.upgrade.hpstore.cc
 
 
-#Production  AP
+# Production  AP
 /usr/share/nginx/html/www.hpshopping.in
 
 /usr/share/nginx/html/new.hpstore.cn
@@ -34,7 +34,7 @@ alias hpdevin='cd /usr/share/nginx/html/in.upgrade.hpstore.cc'
 /usr/share/nginx/html/nz.apjonlinecdn.com
 
 
-#Production LAM
+# Production LAM
 /usr/share/nginx/html/ar.hp.php9.cc
 
 /usr/share/nginx/html/br.hp.php9.cc

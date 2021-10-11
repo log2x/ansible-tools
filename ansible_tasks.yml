@@ -1,0 +1,27 @@
+---
+
+
+- hosts: dev
+  become: true
+  pre_tasks:
+
+  - name: update repo index
+    tags: always
+    apt:
+      update_cache: yes
+    changed_when: false
+    when: ansible_distribution == "ubuntu"
+
+
+
+- hosts: dev
+  become: true
+  roles:
+    - dev
+
+- hosts: uat
+  become: true
+  roles:
+    - uat
+
+

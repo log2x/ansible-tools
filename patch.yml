@@ -1,0 +1,11 @@
+- hosts: pro_au
+  become: yes
+  become_user: ubuntu
+  tasks:
+    - name: sg
+      patch:
+        src: /home/johnshi/Downloads/0001-Jira-HPST-38130-Add-categories-name-mapping.patch
+        basedir: /usr/share/nginx/html/au.apjonlinecdn.com
+        strip: 1
+
+      

@@ -1,6 +1,5 @@
 ---
 
-
 - hosts: dev
   become: true
   pre_tasks:
@@ -18,10 +17,4 @@
   become: true
   roles:
     - dev
-
-- hosts: uat
-  become: true
-  roles:
-    - uat
-
 

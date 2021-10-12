@@ -1,0 +1,4 @@
+- name: service php7.3 reload
+  service:
+    name: php7.3
+    state: restarted

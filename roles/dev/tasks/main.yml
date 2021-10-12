@@ -1,3 +1,2 @@
-- name: ping test
-  ping: 
-  
+- name: shell moduels 
+  shell: /bin/echo {{ test }} >> /home/ubuntu/test.txt

@@ -1,0 +1,8 @@
+---
+
+- hosts: dev
+  become: true
+  become_user: ubuntu
+  roles:
+    - dev
+
